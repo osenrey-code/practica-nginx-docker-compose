@@ -73,3 +73,15 @@ git push -u origin main
 - <http://localhost:8080> responde con estado HTTP `200`.
 - La página muestra **¡Hola mundo!**.
 - El repositorio público contiene `docker-compose.yml`, `src/index.html` y este `README.md`.
+
+## Verificación realizada
+
+La práctica fue ejecutada y comprobada en Windows con WSL 2:
+
+- Docker Engine `29.8.2` y Docker Compose `v5.6.0`.
+- Configuración validada con `docker compose config`.
+- Contenedor `practica-nginx` en estado `Up`.
+- Puerto publicado: `0.0.0.0:8080->80/tcp`.
+- `./src` montado en `/usr/share/nginx/html` en modo de solo lectura.
+- <http://localhost:8080> respondió con estado HTTP `200` mediante `nginx/1.31.7`.
+- Título, encabezado **¡Hola mundo!** y mensaje de Docker Compose comprobados.
