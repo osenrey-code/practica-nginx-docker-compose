@@ -63,7 +63,7 @@ git init
 git add .
 git commit -m "Crear servidor Nginx con Docker Compose"
 git branch -M main
-git remote add origin URL_DEL_REPOSITORIO
+git remote add origin https://github.com/osenrey-code/practica-nginx-docker-compose.git
 git push -u origin main
 ```
 
