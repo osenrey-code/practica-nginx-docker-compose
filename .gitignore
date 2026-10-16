@@ -7,3 +7,6 @@ Thumbs.db
 # Archivos temporales y registros
 *.log
 *.tmp
+
+# Recursos de trabajo de Codex (incluye instaladores locales)
+work/
